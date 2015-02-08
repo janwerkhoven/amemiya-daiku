@@ -5,7 +5,7 @@ Homepage of a traditional Japanese carpenter (daiku) named Kunihiro Amemiya (雨
 
 ## Features
 * Localization to Japanese and English
-* 100% precompilation for lightweight load and SEO boost
+* 100% precompilation for fastest loadtime and SEO boost
 * Minimalistic design
 * Mobile responsive
 
