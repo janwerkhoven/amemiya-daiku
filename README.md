@@ -4,7 +4,8 @@
 Homepage of a traditional Japanese carpenter (daiku) named Kunihiro Amemiya (雨宮国広) (www.amemiya-daiku.jp)
 
 Features:
-* Localization to both English and Japanese
+* Localization to Japanese and English
+* 100% precompilation for lightweight load and SEO boost
 * Minimalistic design
 * Mobile responsive
 
@@ -22,10 +23,4 @@ Features:
 Developed by Jan Werkhoven (www.nabu.io)
 
 ## When
-* Built in 2011
-* Major overhaul 2015
-
-## Features
-* Localization to both English and Japanese
-* Minimalistic design
-* Mobile responsive
+Initial build in 2011, major overhaul in 2015
