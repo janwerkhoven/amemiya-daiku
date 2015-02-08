@@ -23,4 +23,5 @@ Homepage of a traditional Japanese carpenter (daiku) named Kunihiro Amemiya (雨
 Developed by Jan Werkhoven (www.nabu.io)
 
 ## When
-Initial build in 2011, major overhaul in 2015
+* 2011 - Initial build
+* 2015 - Major overhaul
