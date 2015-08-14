@@ -1,0 +1,542 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Daiku NL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-06 10:02+0100\n"
+"PO-Revision-Date: 2012-01-06 10:03+0100\n"
+"Last-Translator: Jan Werkhoven <jan.werkhoven@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;_e;_c;_ngettext\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: plural : nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\amemiya-daiku.jp 1.3\n"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/buildings.php:5
+msgid "Buildings | Amemiya-daiku"
+msgstr "建物 | 雨宮大工"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/buildings.php:8
+msgid "Buildings and construction built by Amemiya Daiku"
+msgstr "雨宮大工が作った建物"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/buildings.php:9
+msgid "buildings, genkan, morikawa, sendogaya, shiono, tomohana, amemiya daiku"
+msgstr "建物, 玄関, 森川, 船頭小屋, しおの, とも花, 雨宮大工 "
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/buildings.php:20
+#: 1.3/include/navigation.php:7
+msgid "Buildings"
+msgstr "建物"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/buildings.php:21
+msgid "Tomohana"
+msgstr "とも花"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/buildings.php:31
+msgid "Genkan"
+msgstr "玄関"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/buildings.php:41
+msgid "Morikawa"
+msgstr "森川"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/buildings.php:51
+msgid "Sendogoya"
+msgstr "船頭小屋"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/buildings.php:61
+msgid "Shiono"
+msgstr "しおの"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/contact.php:5
+msgid "Contact | Amemiya-daiku"
+msgstr "問い合わせ | 雨宮大工"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/contact.php:8
+msgid "How to get in touch with Kunihiro Amemiya. Japanese only."
+msgstr "問い合わせ. 日本語のみ."
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/contact.php:9
+msgid "Kunihiro Amemiya, telephone, adress, mobile, fax, contact"
+msgstr "雨宮国広, 電話番号, 住所, 携帯電話, FAX, 問い合わせ"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/contact.php:20
+msgid "Kunihiro Amemiya"
+msgstr "雨宮国広"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/contact.php:23
+msgid "Adress"
+msgstr "住所"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/contact.php:24
+msgid "Yamanashi-Ken,<br />Koushuu-shi,<br />Mikka-Ichiba,<br />Enzan 2202-1<br />〒404-0047"
+msgstr "山梨県甲州市三日市場塩山2202-1<br />〒404-0047"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/contact.php:27
+msgid "TEL/FAX"
+msgstr "TEL/FAX"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/contact.php:31
+msgid "Mobile phone"
+msgstr "携帯電話"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/exchange.php:5
+msgid "Exchange | Amemiya-daiku"
+msgstr "交流 | 雨宮大工"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/exchange.php:8
+msgid "International exchange of carpenting craftsmanship skills."
+msgstr "世界の職人との技術交流"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/exchange.php:9
+msgid "traditional skills, carpenters, international, craftsmanship, exchange, , craftsmen, Germany, Japan"
+msgstr "伝統技法, 大工, 国際, 技術, 交流, , 職人, ドイツ, 日本"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/exchange.php:20
+msgid "International craftsmanship exchange"
+msgstr "世界との技術交換"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/exchange.php:21
+msgid "In the past craftsmen from around the world gathered to share their native methods. Their common thought \"making homes connecting life\"."
+msgstr "     "
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/exchange.php:22
+msgid "2005, Germany"
+msgstr "2005年、ドイツ"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/exchange.php:23
+msgid "Taking part in an international exchange to teach traditional Japanese skills and learn traditional Western skills in Germany for the first time."
+msgstr "初めてドイツで行った国際技術交流イベントに参加しました。"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/exchange.php:33
+msgid "2007, Germany"
+msgstr "2007年、ドイツ"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/exchange.php:34
+#: 1.3/index.php:50
+msgid "Building a large Torii in Germany with craftsmen from 5 different countries."
+msgstr "５カ国の職人が集まり、鳥居造りを行いました。"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/exchange.php:45
+msgid "2010, Japan"
+msgstr "2010年、日本"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/exchange.php:46
+msgid "Hosting the \"Chiisa-na Kezurokai in Ichinose\" in Koushuu-shi Inchinose. carpenters from Germany, England, Belgium, Sweden, Austria and Japan (70 in total) built two huts using only hand tools; a Japanese style and a European style."
+msgstr "市ノ瀬で「小さな削ろう会in市ノ瀬」が行われました。ドイツ、イギリス、ベルギー、スエーデン、オーストリアと日本から７０人が集まって手道具だけで二件の小屋を完成しました。"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/finish.php:5
+msgid "Finish | Amemiya-daiku"
+msgstr "仕上げ | 雨宮大工"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/finish.php:8
+msgid "Finish techniques by Amemiya-daiku"
+msgstr "雨宮大工の仕上げ方"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/finish.php:9
+msgid "carpentry, adze finishing, masakari finishing, wooden shingles, clay wall, amemiya-daiku"
+msgstr "大工, ちょうな, 鉞, 割り板、土壁、雨宮大工"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/finish.php:20
+#: 1.3/include/navigation.php:13
+msgid "Choose your finish"
+msgstr "仕上げ方"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/finish.php:21
+msgid "Adze finishing"
+msgstr "釿"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/finish.php:31
+msgid "Masakari finishing"
+msgstr "鉞"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/finish.php:41
+msgid "Wooden shingles"
+msgstr "割り板"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/finish.php:51
+msgid "Clay wall"
+msgstr "土壁"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/furniture.php:5
+msgid "Furniture | Amemiya-daiku"
+msgstr "家具 | 雨宮大工"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/furniture.php:8
+msgid "Furniture made by Amemiya-daiku"
+msgstr "雨宮大工作家具"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/furniture.php:9
+msgid "furniture, carpentry, wood, chair, table"
+msgstr "家具, 大工, 木, いす, テーブル"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/furniture.php:20
+#: 1.3/include/navigation.php:8
+msgid "Furniture"
+msgstr "家具"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:5
+msgid "Amemiya-daiku - Traditional Japanese Carpentry"
+msgstr "雨宮大工 - 日本伝統大工"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:8
+msgid "Traditional Japanese Carpentry by Kunihiro Amemiya, founder of Amemiya-daiku."
+msgstr "雨宮国広の日本の伝統的木工術"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:9
+msgid "Amemiya-daiku, Kunihiro Amemiya, traditional Japanese carpentry, carpenter, craftsmanship, wood, wooden homes, traditional skills, expert of the wood, Joumon skills, timber skills"
+msgstr "雨宮大工, 雨宮国広, 雨宮国広の日本の伝統的木工術, 大工, 技術, 木, 木工構造, 伝統技法, 縄文の技, 木工技術"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:21
+#: 1.3/include/navigation.php:4
+msgid "About"
+msgstr "雨宮大工について"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:22
+msgid "Amemiya-daiku"
+msgstr "雨宮大工"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:23
+msgid "Amemiya-daiku is located in Yamanashi-prefecture, Enzan, Japan. The company's foreman is Amemiya Kunihiro. The company focuses on traditional Japanese carpentry techniques. Techniques such as squaring logs with the Japanese broadaxe and adze, cutting large timbers in boards with the wide bladed-ripsaw and the traditional way of assembling the frame using the mortise and tenon and more complicated joints. The objective is to build sustainable environmental friendly homes. This by using as much hand tools as possible, manual labor and ancient knowledge and skills. The homes are not only friendly for their surroundings but also for their inhabitants. By living close to nature, the true meaning of a home can come true: comforting peoples mind. Local materials such as trees and earth are used. This in order to keep the ecological footprint as low as possible from the beginning of the building process."
+msgstr "甲州には素晴らしい木を生かす伝統技術を受け継いだ大工職人がいます。雨宮大工はこれからの暮らしに大切なもの作りを考え、世界に誇る伝統技術で木の家を造っています。その物造りが命をつなげることを一番に思い、自然の恵みを生かした持続可能暮らしが出来る家を手道具を使い、手仕事で作り出します。ゆっくりと自然と向き合うことが出来ます。この事が本物の家を作る、一番大切な事だと考えています。"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:24
+msgid "Kunihiro Amemiya traditional Japanese Carpenter"
+msgstr "雨宮国広大工"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:25
+msgid "<br />The company offers: small huts were you can experience an outer space - minka reform and renovation - free earthquake resistance diagnosis."
+msgstr "<br />小さな宇宙空間が感じる小屋・古民家再生・リフォーム・無料耐震診断やっています"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:26
+msgid "History"
+msgstr "経歴"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:29
+msgid "1969"
+msgstr "1969年"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:30
+msgid "Born in Koushuu (graduated from Nichikawa Senior Highschool)."
+msgstr "甲州市生まれ（日川高等学校卒業）"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:33
+msgid "1989"
+msgstr "1989年"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:34
+msgid "Starting his apprenticeship as a carpenter by his father Amemiya Kunio."
+msgstr "大工である父に弟子入り"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:37
+msgid "1999"
+msgstr "1999年"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:38
+msgid "Becoming an independent carpenter, Amemiya-daiku is born."
+msgstr "雨宮大工として独立（研鑽材の使用、伝統技術にこだわる）"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:41
+msgid "2004"
+msgstr "2004年"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:42
+msgid "Winning the prefectural skills competition of Yamanashi."
+msgstr "山梨県技能競争大会、知事賞受賞"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:45
+#: 1.3/index.php:49
+msgid "2007"
+msgstr "2007年"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:46
+msgid "Taking part in the reconstruction of 1600 year old skills at the Yamanashi \"kai choushizuka kofun\"."
+msgstr "山梨県「甲斐桃子塚古墳」の立柱復元で１６００年前技術を再生"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:53
+msgid "2008"
+msgstr "2008年"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:54
+msgid "Taking part in recording traditional skills for the ministry of culture of France and the Takenaka Carpentry Tools museum."
+msgstr "フランス文化庁、竹中大工道具館へ日本の伝統技術映像を提供"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:57
+msgid "2009"
+msgstr "2009年"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:58
+msgid "Being acknowledged as an \"expert of the wood\" by the National Land Afforestation Promotion Organization."
+msgstr "国士緑化推進機構より「森の名手・名人」に認定される"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:61
+#: 1.3/index.php:65
+msgid "2010"
+msgstr "2010年"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:62
+msgid "Involved in investigating Joumon-era lifestyle at the Ishikawa prefectural Iwaki historic ruins (splitting timber and stone axe hewing)."
+msgstr "石川県真脇遺跡で縄文技術検証（木割り技術・石斧の加工技術）"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/index.php:66
+msgid "Hosting the \"Chiisa-na Kezurokai in Ichinose\" in Ichinose."
+msgstr "市ノ瀬で行った「小さな削ろう会in市ノ瀬」"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/links.php:5
+msgid "Links | Amemiya-daiku"
+msgstr "リンク | 雨宮大工"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/links.php:8
+msgid "Links to partners and friends of Amemiy-daiku"
+msgstr "リンク"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/links.php:9
+msgid "Tatami World, Axel Weller"
+msgstr "Tatami World, Axel Weller"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/links.php:20
+#: 1.3/include/navigation.php:14
+msgid "Links"
+msgstr "リンク"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/ocha-he-ie.php:5
+msgid "Ocha-he-ie | Amemiya-daiku"
+msgstr "お茶へ家 | 雨宮大工"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/ocha-he-ie.php:8
+#: 1.3/ocha-he-ie.php:9
+#: 1.3/ocha-he-ie.php:20
+msgid "Ocha-he-ie"
+msgstr "お茶へ家"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/ocha-he-ie.php:21
+msgid "Under Construction"
+msgstr "工事中"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/tools.php:5
+msgid "Tools | Amemiya-daiku"
+msgstr "手道具 | 雨宮大工"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/tools.php:8
+msgid "Tools used by Amemiya-daiku: Broadaxe, adze, rip saw"
+msgstr "雨宮さんが使う大工道具: 鉞, ちょうな, 前挽き"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/tools.php:9
+msgid "broadaxe, adze, rip saw, tools, shaping logs, axe, hand woodwork, squaring logs, timber, wood"
+msgstr "鉞, ちょうな, 前挽き, 手道具, 格好, 斧, 手仕事, ハンドワーク, 角材, 木材, 木"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/tools.php:20
+#: 1.3/include/navigation.php:11
+msgid "Tools"
+msgstr "手道具"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/tools.php:21
+msgid "Broadaxe"
+msgstr "鉞"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/tools.php:32
+msgid "Adze"
+msgstr "釿"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/tools.php:43
+msgid "Rip Saw"
+msgstr "前挽き大鋸"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/include/navigation.php:5
+msgid "Portfolio"
+msgstr "作品"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/include/navigation.php:9
+msgid "International"
+msgstr "世界へ"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/include/navigation.php:12
+msgid "Ocha-He-Ie"
+msgstr "お茶へ家"
+
+#: C:\wamp\www\amemiya-daiku.jp
+#: 1.3/include/navigation.php:15
+msgid "Contact"
+msgstr "問い合わせ"
+
+#~ msgid ""
+#~ "In medieval Japan somashi (杜師) were known for their accuracy and "
+#~ "swiftness with the Japanese broadaxe, the masakari (鉞). They axes come "
+#~ "in different shapes, but they are all meant to do the same. Squaring logs "
+#~ "after they have been cut. This way the logs dry faster during "
+#~ "transportation to the construction site or the manufacturer."
+#~ msgstr "　　"
+
+#~ msgid ""
+#~ "The adze, chouna (釿), was used to smooth the squared logs even further. "
+#~ "If the adzing is done properly it does not take to great effort to give "
+#~ "the timber a final finish by planing it. The adze has also different "
+#~ "shapes. There are adzes used for smoothing, squaring and there are even "
+#~ "adzes used for more decorative finishing."
+#~ msgstr "　　"
+
+#~ msgid ""
+#~ "The wide-bladed ripsaw maebiki-oga (前挽き大鋸) was yielded by the so "
+#~ "called kobiki (木挽). This saw was used to cut boards out of logs and for "
+#~ "squaring logs."
+#~ msgstr "　　"
+
+#~ msgid "Links "
+#~ msgstr "リンク "
+
+#~ msgid "2005"
+#~ msgstr "2005年"
+
+#~ msgid ""
+#~ "Taking part in an exchange to learn and teach traditional Japanese skills "
+#~ "in Germany for the first time."
+#~ msgstr "   "
+
+#~ msgid ""
+#~ "International craftsmanship exchanges Amemiya-daiku has attended or hosted"
+#~ msgstr "世界の職人との技術交流"
+
+#~ msgid ""
+#~ "Hosting the \"Chiisa-na Kezurokai in Ichinose\" in Koushuu-shi Inchinose. "
+#~ "carpenters from Germany, England, Belgium, Sweden, Austria and Japan (70 "
+#~ "in total) built two huts; a Japanese style and a European style."
+#~ msgstr ""
+#~ "市ノ瀬で「小さな削ろう会in市ノ瀬」が行われました。ドイツ、イギリス、ベル"
+#~ "ギー、スエーデン、オーストリアと日本から７０人が集まって手道具だけで二件の"
+#~ "小屋を完成しました。"
+
+#~ msgid ""
+#~ "<br />The company offers small huts were you can experience an outer "
+#~ "space - mink reforms and renovation - free earthquake resistance "
+#~ "diagnosis."
+#~ msgstr ""
+#~ "小さな宇宙空間が感じる小屋・古民家再生・リフォーム・無料耐震診断やっていま"
+#~ "す"
+
+#~ msgid ""
+#~ "The wide-bladed ripsaw maebiki-oga (前挽き大鋸) was yielded by the so "
+#~ "called kobuki (木挽). The wide-bladed ripsaw was used to cut boards out "
+#~ "of logs and for squaring logs."
+#~ msgstr "　　　"
+
+#~ msgid ""
+#~ "Amemiya-daiku learned and exchanged traditional skills with craftsmen "
+#~ "from around the world with \"making homes connecting life\" as its motto."
+#~ msgstr ""
+#~ "雨宮大工は、伝統技術を世界の職人と学び、「命をつなげる家作り」をモットー実"
+#~ "践してきました。"
+
+#~ msgid ""
+#~ "Amemiya-daiku is situated in Koushuu, Yamanashi. By using <em>traditional "
+#~ "Japanese carpentry techniques</em>, Amemiya-daiku tries to let trees live "
+#~ "beyond their first life. Amemiya-daiku therefore uses trees to build "
+#~ "wooden homes, keeping in mind a craftsmanship that is will become more "
+#~ "important for our daily life from now on. Amemiya-daiku beliefs that a "
+#~ "sustainable way of life can be obtained by starting with building homes. "
+#~ "Using natures gifts and use only <em>non powered handtools</em> and "
+#~ "<em>manual labor</em>. This enables to ease people by getting close to "
+#~ "nature. And that is maybe the most important thing about making a true "
+#~ "home."
+#~ msgstr ""
+#~ "甲州には素晴らしい木を生かす伝統技術を受け継いだ大工職人がいます。雨宮大工"
+#~ "はこれからの暮らしに大切なもの作りを考え、世界に誇る伝統技術で木の家を造っ"
+#~ "ています。その物造りが命をつなげることを一番に思い、自然の恵みを生かした持"
+#~ "続可能暮らしが出来る家を手道具を使い、手仕事で作り出します。ゆっくりと自然"
+#~ "と向き合うことが出来ます。この事が本物の家を作る、一番大切な事だと考えてい"
+#~ "ます。"
+
+#~ msgid "Construction"
+#~ msgstr "建物"
+
+#~ msgid "Kezuroukai"
+#~ msgstr "削ろう会"
+
+#~ msgid "Furtniture"
+#~ msgstr "家具"
