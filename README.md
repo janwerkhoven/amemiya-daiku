@@ -4,9 +4,9 @@
 The [website](http://amemiya-daiku.jp/) of a traditional Japanese carpenter (daiku) named Kunihiro Amemiya (雨宮国広). This website was built in 2013.
 
 #### Built with
-* Ember CLI
-* Handlebars
-* SASS
+* HTML5
+* CSS3
+* Javascript
 * jQuery
 * Photoshop
 * Illustrator
