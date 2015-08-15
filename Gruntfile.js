@@ -52,7 +52,7 @@ module.exports = function(grunt) {
           context: {
             language: 'jp',
             phrase1: {
-              en: "Get bent",
+              en: "Damn",
               jp: "Kuso!"
             },
             phrase2: {

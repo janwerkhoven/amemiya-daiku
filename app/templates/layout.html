@@ -15,26 +15,29 @@
     <meta name="description" content="Traditional Japanese Carpentry by Kunhiro Amemiya">
   {{/block}}
 
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
   <link href="assets/css/main.min.css" rel="stylesheet" type="text/css">
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
   <script src="assets/js/main.min.js"></script>
 
 </head>
 
 <body>
 
+  {{> header}}
+  <main>
+    <div class="inner">
+      {{> nav}}
+      {{#block "main"}}
+        <h2>Layout</h2>
+      {{/block}}
+    </div>
+  </main>
+  {{> footer}}
+
   <h1>{{phrase1.en}}</h1>
   <h1>{{phrase2.jp}}</h1>
   <h1>{{title}}</h1>
-
-  {{> header}}
-  <main>
-    {{> nav}}
-    {{#block "main"}}
-      <h2>Layout</h2>
-    {{/block}}
-  </main>
-  {{> footer}}
 
 </body>
 
