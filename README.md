@@ -1,7 +1,7 @@
 # amemiya-daiku.jp
 
 #### What
-The [website](http://amemiya-daiku.jp/) of a traditional Japanese carpenter (daiku) named Kunihiro Amemiya (雨宮国広). Built in 2013.
+The [website](http://amemiya-daiku.jp/) of Kunihiro Amemiya (雨宮国広), a traditional carpenter (daiku) in Japan. Built in 2013.
 
 #### Built with
 * HTML5
