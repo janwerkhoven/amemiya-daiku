@@ -50,6 +50,15 @@ module.exports = function(grunt) {
           basePath: 'app/templates/',
           modules: ['app/templates/helpers/helpers-*.js'],
           context: {
+            language: 'jp',
+            phrase1: {
+              en: "Get bent",
+              jp: "Kuso!"
+            },
+            phrase2: {
+              en: "This was gooood",
+              jp: "Oishiii"
+            },
             title: 'MOSHI MOSH <%= grunt.filename %>',
             projectName: 'Grunt handlebars layout',
             items: [
@@ -88,7 +97,7 @@ module.exports = function(grunt) {
         separator: ';\n\n',
       },
       dist: {
-        src: ['app/js/libs/jquery.js', 'app/js/libs/velocity.js', 'app/js/libs/modernizr.js', 'app/js/main.js'],
+        src: ['app/js/libs/jquery.js', 'app/js/libs/velocity.js', 'app/js/libs/modernizr.js', 'app/js/jquery.lightbox-0.5.js', 'app/js/main.js'],
         dest: 'dist/assets/js/main.js',
       },
     },

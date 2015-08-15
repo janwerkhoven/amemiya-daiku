@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>http://www.amemiya-daiku.jp/</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/index.php?l=ja</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/buildings.php?l=ja</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/furniture.php?l=ja</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/exchange.php?l=ja</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/tools.php?l=ja</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/ocha-he-ie.php?l=ja</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.1</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/finish.php?l=ja</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/links.php?l=ja</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/contact.php?l=ja</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>http://www.amemiya-daiku.jp/index.php?l=en</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/buildings.php?l=en</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/furniture.php?l=en</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/exchange.php?l=en</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/tools.php?l=en</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/ocha-he-ie.php?l=en</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.1</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/finish.php?l=en</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/links.php?l=en</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.amemiya-daiku.jp/contact.php?l=en</loc>
+        <lastmod>2012-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+</urlset>
