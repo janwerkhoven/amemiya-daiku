@@ -24,19 +24,22 @@
 
 <body>
 
-  <h1>{{phrase1.en}}</h1>
-  <h1>{{phrase2.jp}}</h1>
-  <!-- <h1>
-    {{#i18n phrase1 language=language}}{{/i18n}}
-  </h1> -->
+  <h1>
+    {{#i18n 'phrase1' language='jp' }}{{/i18n}}
+  </h1>
+  <h1>
+    {{#markdown}}{{phrase1.en}}{{/markdown}}
+  </h1>
+  <h1>{{phrase2.[language]}}</h1>
   <h1>{{lowercase "MAKE THIS ALL LOWERCASE"}}</h1>
   <h1>{{_dirname}}</h1>
   <h1>{{_extname}}</h1>
   <h1>{{_relative}}</h1>
   <h1>{{language}}</h1>
   <h1>
+    {{translate language=language}}
     <!-- {{#translate language="jp" }}{{phrase2}}{{/translate}} -->
-    {{{translate content=phrase2 language="jp" }}}
+    <!-- {{{translate content=phrase2 language="jp" }}} -->
   </h1>
   <h1>
     {{#bold}}This here{{/bold}}

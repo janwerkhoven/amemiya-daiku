@@ -51,8 +51,16 @@ module.exports = function(grunt) {
           modules: ['app/helpers/*.js', 'handlebars-helpers'],
           context: {
             language: 'jp',
+            en: {
+              phrase1: "Damn",
+              phrase2: "This was gooood"
+            },
+            jp: {
+              phrase1: "Kuso!",
+              phrase2: "Oishiii"
+            },
             phrase1: {
-              en: "Damn",
+              en: "Damn you *commies* and you [links](https://github.com/janwerkhoven/amemiya-daiku.jp)",
               jp: "Kuso!"
             },
             phrase2: {
