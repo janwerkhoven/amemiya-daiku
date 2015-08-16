@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="{{language}}">
 
 <head>
 
@@ -15,14 +15,33 @@
     <meta name="description" content="Traditional Japanese Carpentry by Kunhiro Amemiya">
   {{/block}}
 
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
   <link href="assets/css/main.min.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
   <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
   <script src="assets/js/main.min.js"></script>
 
 </head>
 
 <body>
+
+  <h1>{{phrase1.en}}</h1>
+  <h1>{{phrase2.jp}}</h1>
+  <!-- <h1>
+    {{#i18n phrase1 language=language}}{{/i18n}}
+  </h1> -->
+  <h1>{{lowercase "MAKE THIS ALL LOWERCASE"}}</h1>
+  <h1>{{_dirname}}</h1>
+  <h1>{{_extname}}</h1>
+  <h1>{{_relative}}</h1>
+  <h1>{{language}}</h1>
+  <h1>
+    <!-- {{#translate language="jp" }}{{phrase2}}{{/translate}} -->
+    {{{translate content=phrase2 language="jp" }}}
+  </h1>
+  <h1>
+    {{#bold}}This here{{/bold}}
+  </h1>
+  <h1>{{title}}</h1>
 
   {{> header}}
   <main>
@@ -34,10 +53,6 @@
     </div>
   </main>
   {{> footer}}
-
-  <h1>{{phrase1.en}}</h1>
-  <h1>{{phrase2.jp}}</h1>
-  <h1>{{title}}</h1>
 
 </body>
 

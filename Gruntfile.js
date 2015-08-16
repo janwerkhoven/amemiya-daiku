@@ -29,7 +29,7 @@ module.exports = function(grunt) {
         tasks: ['jshint', 'concat', 'uglify']
       },
       gruntfile: {
-        files: ['Gruntfile.js'],
+        files: ['Gruntfile.js', 'app/helpers/**/*.js'],
         tasks: ['handlebarslayouts', 'sass', 'jshint', 'concat', 'uglify']
       },
       options: {
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
         options: {
           partials: ['app/templates/partials/*.hbs', 'app/templates/layout.html'],
           basePath: 'app/templates/',
-          modules: ['app/templates/helpers/helpers-*.js'],
+          modules: ['app/helpers/*.js', 'handlebars-helpers'],
           context: {
             language: 'jp',
             phrase1: {
