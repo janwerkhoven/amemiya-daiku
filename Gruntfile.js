@@ -17,7 +17,7 @@ module.exports = function(grunt) {
     },
     watch: {
       handlebars: {
-        files: ['app/templates/**/*.hbs', 'app/templates/**/*.json', 'app/templates/layout.html '],
+        files: ['app/templates/**/*.hbs', 'app/locale/**/*.json', 'app/templates/layout.html '],
         tasks: 'handlebarslayouts'
       },
       sass: {
@@ -30,51 +30,53 @@ module.exports = function(grunt) {
       },
       gruntfile: {
         files: ['Gruntfile.js', 'app/helpers/**/*.js'],
-        tasks: ['handlebarslayouts', 'sass', 'jshint', 'concat', 'uglify']
+        tasks: 'build'
       },
       options: {
         livereload: true,
       }
     },
     handlebarslayouts: {
-      dist: {
+      english: {
+        files: [{
+          src: ['**/*.hbs', '!partials/*'],
+          dest: 'dist/en/',
+          ext: '.html',
+          cwd: 'app/templates/',
+          expand: true
+        }],
+        options: {
+          partials: ['app/templates/partials/*.hbs', 'app/templates/layout.html'],
+          basePath: 'app/templates/',
+          modules: ['app/helpers/*.js', 'handlebars-helpers'],
+          context: 'app/locale/en.json'
+            // context: {
+            //   language: 'en',
+            //   en: 'app/locale/en.json'
+            //     // en: {
+            //     //   phrase1: "Damn",
+            //     //   phrase2: "This was gooood"
+            //     // },
+            //     // jp: {
+            //     //   phrase1: "Kuso!",
+            //     //   phrase2: "Oishiii"
+            //     // }
+            // }
+        }
+      },
+      japanese: {
         files: [{
           expand: true,
           cwd: 'app/templates/',
           src: ['**/*.hbs', '!partials/*'],
-          dest: 'dist/',
+          dest: 'dist//jp/',
           ext: '.html',
         }],
         options: {
           partials: ['app/templates/partials/*.hbs', 'app/templates/layout.html'],
           basePath: 'app/templates/',
           modules: ['app/helpers/*.js', 'handlebars-helpers'],
-          context: {
-            language: 'jp',
-            en: {
-              phrase1: "Damn",
-              phrase2: "This was gooood"
-            },
-            jp: {
-              phrase1: "Kuso!",
-              phrase2: "Oishiii"
-            },
-            phrase1: {
-              en: "Damn you *commies* and you [links](https://github.com/janwerkhoven/amemiya-daiku.jp)",
-              jp: "Kuso!"
-            },
-            phrase2: {
-              en: "This was gooood",
-              jp: "Oishiii"
-            },
-            title: 'MOSHI MOSH <%= grunt.filename %>',
-            projectName: 'Grunt handlebars layout',
-            items: [
-              'apple',
-              'orange',
-              'banana'
-            ]
-          }
+          context: 'app/locale/jp.json'
         }
       }
     },
@@ -130,6 +132,13 @@ module.exports = function(grunt) {
           dest: 'dist/'
         }]
       }
+    },
+    po_json: {
+      target: {
+        files: {
+          'locale/ja.json': 'locale/ja.po'
+        }
+      }
     }
   });
 
@@ -144,10 +153,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-po-json');
 
   // commands
   grunt.registerTask('default', ['clean', 'copy', 'handlebarslayouts', 'sass', 'jshint', 'concat', 'uglify', 'connect', 'watch']);
   grunt.registerTask('build', ['clean', 'copy', 'handlebarslayouts', 'sass', 'jshint', 'concat', 'uglify']);
   grunt.registerTask('server', ['connect', 'watch']);
+  grunt.registerTask('locale', ['po_json']);
 
 };

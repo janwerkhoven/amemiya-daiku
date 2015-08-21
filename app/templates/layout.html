@@ -11,40 +11,18 @@
   <meta name="robots" content="all">
 
   {{#block "meta"}}
-    <title>Amemiya Daiku</title>
+    <title>{{amemiya-daiku}}</title>
     <meta name="description" content="Traditional Japanese Carpentry by Kunhiro Amemiya">
   {{/block}}
 
-  <link href="assets/css/main.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/main.min.css" rel="stylesheet" type="text/css">
   <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
-  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <script src="assets/js/main.min.js"></script>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <script src="/assets/js/main.min.js"></script>
 
 </head>
 
 <body>
-
-  <h1>
-    {{#i18n 'phrase1' language='jp' }}{{/i18n}}
-  </h1>
-  <h1>
-    {{#markdown}}{{phrase1.en}}{{/markdown}}
-  </h1>
-  <h1>{{phrase2.[language]}}</h1>
-  <h1>{{lowercase "MAKE THIS ALL LOWERCASE"}}</h1>
-  <h1>{{_dirname}}</h1>
-  <h1>{{_extname}}</h1>
-  <h1>{{_relative}}</h1>
-  <h1>{{language}}</h1>
-  <h1>
-    {{translate language=language}}
-    <!-- {{#translate language="jp" }}{{phrase2}}{{/translate}} -->
-    <!-- {{{translate content=phrase2 language="jp" }}} -->
-  </h1>
-  <h1>
-    {{#bold}}This here{{/bold}}
-  </h1>
-  <h1>{{title}}</h1>
 
   {{> header}}
   <main>
