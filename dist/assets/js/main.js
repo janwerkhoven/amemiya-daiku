@@ -16,43 +16,24 @@ return!0}function Q(a,b,d,e){if(m.acceptData(a)){var f,g,h=m.expando,i=a.nodeTyp
 
 // MAIN JS
 
-var J = jQuery.noConflict();
+$(document).ready(function() {
 
-// JQUERY
+  // navigation
 
-J(document).ready(function() {
-
-  // NAVIGATION
-  J('#x1').next("ul").hide();
-  if (document.body.id == 'furniture' || document.body.id == 'buildings' || document.body.id == 'exchange') {
-    J('#x1').next("ul").show();
-  }
-  J('#x1').click(function(event) {
-    event.preventDefault();
-    J(this).next("ul").slideToggle(300);
-    J('#x1').not(this).next("ul").slideUp(300);
+  $('nav li.parent ul').css({
+    height: 0
   });
 
-  // HEADER LOGO RIGHT
-  J('#header-bg-box').hover(function() {
-    J(this).stop();
-    J(this).animate({
-      height: 261
-    }, 400);
-  }, function() {
-    J(this).stop();
-    J(this).animate({
-      height: 166
-    }, 300);
+  $('nav li.parent a').on('click', function() {
+    if ($(this).siblings('ul').hasClass('expanded')) {
+      $(this).siblings('ul').removeClass('expanded').velocity('stop').velocity({
+        height: 0
+      }, 400, 'easeOutExpo');
+    } else {
+      $(this).siblings('ul').addClass('expanded').velocity('stop').velocity({
+        height: 117
+      }, 400, 'easeOutExpo');
+    }
   });
-
-  // JQUERY LIGHTBOX
-  // J(function() {
-  //   J('.gallery a.g1').lightBox();
-  //   J('.gallery a.g2').lightBox();
-  //   J('.gallery a.g3').lightBox();
-  //   J('.gallery a.g4').lightBox();
-  //   J('.gallery a.g5').lightBox();
-  // });
 
 });

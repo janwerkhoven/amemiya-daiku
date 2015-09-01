@@ -31,7 +31,7 @@ h2 {
 }
 h3 {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 100%;
   font-family: Verdana, Geneva, sans-serif;
   color: $amemiya-green;
@@ -57,7 +57,6 @@ ul {
   li {
     margin: 0;
     line-height: 150%;
-    padding: 0 4px;
   }
 }
 table {
@@ -115,16 +114,40 @@ main {
         filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
         background: linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
         border: 1px solid #ddd;
-        a {
-          display: block;
-          font-size: 13px;
-          letter-spacing: 0;
-          padding: 10px;
-          text-decoration: none;
-          color: #767676;
+        li {
+          position: relative;
+          a {
+            display: block;
+            font-size: 13px;
+            letter-spacing: 0;
+            padding: 10px 14px;
+            text-decoration: none;
+            color: #767676;
+            &:hover {
+              color: #869f55;
+              &:after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 5px 0 5px 5px;
+                border-color: transparent transparent transparent #869f55;
+                right: 12px;
+                top: 15px;
+              }
+            }
+          }
+          &.parent>a:after {
+            top: 17px;
+            border-width: 5px 5px 0 5px;
+            border-color: #869f55 transparent transparent transparent;
+          }
         }
         >li {
           >ul {
+            height: 0;
+            overflow: hidden;
             background: #898989;
             background: -moz-linear-gradient(top, #898989 0%, #898989 11%, #707070 100%);
             background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #898989), color-stop(11%, #898989), color-stop(100%, #707070));
@@ -133,10 +156,24 @@ main {
             background: -ms-linear-gradient(top, #898989 0%, #898989 11%, #707070 100%);
             background: linear-gradient(top, #898989 0%, #898989 11%, #707070 100%);
             filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#898989', endColorstr='#707070', GradientType=0 );
-            padding: 0 0 0 10px;
+            padding: 0 0 0 6px;
             a {
               color: #fff;
+              &:hover {
+                color: #fff;
+                &:after {
+                  border-color: transparent transparent transparent #fff;
+                }
+              }
             }
+          }
+        }
+      }
+      >p {
+        a {
+          img {
+            display: inline-block;
+            margin: 0 7px -1px 5px;
           }
         }
       }
@@ -162,7 +199,7 @@ footer {
 section#about {
   img {
     border: 1px solid #777;
-    margin-left: -1px;
+    margin: 20px 0 20px -1px;
   }
   table {
     tr {
