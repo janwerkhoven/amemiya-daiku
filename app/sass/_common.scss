@@ -188,6 +188,20 @@ main {
         }
       }
     }
+    .gallery {
+      a {
+        float: left;
+        &:hover {
+          opacity: 0.8;
+        }
+        img {
+          margin: 0 5px 5px 0;
+        }
+      }
+      &:after {
+        @include clearfix;
+      }
+    }
   }
 }
 footer {

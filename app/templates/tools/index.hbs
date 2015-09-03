@@ -15,19 +15,39 @@
 
       <p>{{tools-broadaxe-info}}</p>
 
-      <p>-images-</p>
+      <div class="gallery">
+        {{#each images.broadaxe}}
+          <a href="/assets/img/tools/broadaxe/broadaxe-{{@index}}.jpg">
+            <img src="/assets/img/tools/broadaxe/thumbs/broadaxe-{{@index}}.jpg" />
+          </a>
+        {{/each}}
+      </div>
+
+      <!-- https://github.com/wycats/handlebars.js/issues/250#issuecomment-9514811 -->
 
       <h3>{{tools-adze}}</h3>
 
       <p>{{tools-adze-info}}</p>
 
-      <p>-images-</p>
+      <div class="gallery">
+        {{#each images.broadaxe}}
+          <a href="/assets/img/tools/broadaxe/broadaxe-{{@index}}.jpg">
+            <img src="/assets/img/tools/broadaxe/thumbs/broadaxe-{{@index}}.jpg" />
+          </a>
+        {{/each}}
+      </div>
 
       <h3>{{tools-rip-saw}}</h3>
 
-      <p>{{tools-adze-info}}</p>
+      <p>{{tools-rip-saw-info}}</p>
 
-      <p>-images-</p>
+      <div class="gallery">
+        {{#each images.broadaxe}}
+          <a href="/assets/img/tools/broadaxe/broadaxe-{{@index}}.jpg">
+            <img src="/assets/img/tools/broadaxe/thumbs/broadaxe-{{@index}}.jpg" />
+          </a>
+        {{/each}}
+      </div>
 
     </section>
 
