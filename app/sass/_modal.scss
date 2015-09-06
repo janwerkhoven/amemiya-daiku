@@ -1,0 +1,21 @@
+body.prevent-scroll {
+  overflow: hidden;
+}
+#modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  min-height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  background-color: RGBA(255, 255, 255, 0.85);
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+  .modal {
+    img {
+      margin: 20px auto;
+    }
+  }
+}

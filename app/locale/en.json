@@ -86,22 +86,5 @@
   "portfolio": "Portfolio",
   "international": "International",
   "ocha-2": "Ocha-He-Ie",
-  "contact": "Contact",
-  "images": {
-    "broadaxe": [
-      "/tools/broadaxe/broadaxe-1.jpg",
-      "/tools/broadaxe/broadaxe-2.jpg",
-      "/tools/broadaxe/broadaxe-3.jpg",
-      "/tools/broadaxe/broadaxe-4.jpg",
-      "/tools/broadaxe/broadaxe-5.jpg",
-      "/tools/broadaxe/broadaxe-6.jpg",
-      "/tools/broadaxe/broadaxe-7.jpg",
-      "/tools/broadaxe/broadaxe-8.jpg",
-      "/tools/broadaxe/broadaxe-9.jpg",
-      "/tools/broadaxe/broadaxe-10.jpg",
-      "/tools/broadaxe/broadaxe-11.jpg",
-      "/tools/broadaxe/broadaxe-12.jpg",
-      "/tools/broadaxe/broadaxe-13.jpg"
-    ]
-  }
+  "contact": "Contact"
 }

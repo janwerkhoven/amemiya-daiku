@@ -87,7 +87,7 @@ module.exports = function(grunt) {
           noCache: true
         },
         files: {
-          'dist/assets/css/main.min.css': 'app/sass/main.scss'
+          'dist/assets/css/app.min.css': 'app/sass/app.scss'
         }
       }
     },
@@ -107,14 +107,14 @@ module.exports = function(grunt) {
         separator: ';\n\n',
       },
       dist: {
-        src: ['app/js/libs/jquery.js', 'app/js/libs/velocity.js', 'app/js/libs/modernizr.js', 'app/js/jquery.lightbox-0.5.js', 'app/js/main.js'],
-        dest: 'dist/assets/js/main.js',
+        src: ['app/js/libs/jquery.js', 'app/js/libs/velocity.js', 'app/js/libs/modernizr.js', 'app/js/jquery.lightbox-0.5.js', 'app/js/app.js'],
+        dest: 'dist/assets/js/app.js',
       },
     },
     uglify: {
       dist: {
         files: {
-          'dist/assets/js/main.min.js': ['dist/assets/js/main.js']
+          'dist/assets/js/app.min.js': ['dist/assets/js/app.js']
         }
       }
     },

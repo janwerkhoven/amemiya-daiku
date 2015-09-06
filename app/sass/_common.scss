@@ -188,19 +188,29 @@ main {
         }
       }
     }
-    .gallery {
+    .images {
       a {
         float: left;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        width: 115px;
+        height: 77px;
+        margin: 0 5px 5px 0;
+        background-color: #c2a472;
         &:hover {
           opacity: 0.8;
         }
         img {
-          margin: 0 5px 5px 0;
+          max-width: 100%;
         }
       }
       &:after {
         @include clearfix;
       }
+    }
+    .hidden {
+      display: none;
     }
   }
 }

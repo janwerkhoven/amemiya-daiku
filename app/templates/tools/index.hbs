@@ -12,41 +12,33 @@
       <h2>{{tools}}</h2>
 
       <h3>{{tools-broadaxe}}</h3>
-
       <p>{{tools-broadaxe-info}}</p>
-
-      <div class="gallery">
-        {{#each images.broadaxe}}
-          <a href="/assets/img/tools/broadaxe/broadaxe-{{@index}}.jpg">
-            <img src="/assets/img/tools/broadaxe/thumbs/broadaxe-{{@index}}.jpg" />
+      <div class="images">
+        {{#repeat 13}}
+          <a href="/assets/img/tools/broadaxe/broadaxe-{{this}}.jpg">
+            <img src="/assets/img/tools/broadaxe/broadaxe-{{this}}.jpg" />
           </a>
-        {{/each}}
+        {{/repeat}}
       </div>
 
-      <!-- https://github.com/wycats/handlebars.js/issues/250#issuecomment-9514811 -->
-
       <h3>{{tools-adze}}</h3>
-
       <p>{{tools-adze-info}}</p>
-
-      <div class="gallery">
-        {{#each images.broadaxe}}
-          <a href="/assets/img/tools/broadaxe/broadaxe-{{@index}}.jpg">
-            <img src="/assets/img/tools/broadaxe/thumbs/broadaxe-{{@index}}.jpg" />
+      <div class="images">
+        {{#repeat 8}}
+          <a href="/assets/img/tools/adze/adze-{{this}}.jpg">
+            <img src="/assets/img/tools/adze/adze-{{this}}.jpg" />
           </a>
-        {{/each}}
+        {{/repeat}}
       </div>
 
       <h3>{{tools-rip-saw}}</h3>
-
       <p>{{tools-rip-saw-info}}</p>
-
-      <div class="gallery">
-        {{#each images.broadaxe}}
-          <a href="/assets/img/tools/broadaxe/broadaxe-{{@index}}.jpg">
-            <img src="/assets/img/tools/broadaxe/thumbs/broadaxe-{{@index}}.jpg" />
+      <div class="images">
+        {{#repeat 7}}
+          <a href="/assets/img/tools/ripsaw/ripsaw-{{this}}.jpg">
+            <img src="/assets/img/tools/ripsaw/ripsaw-{{this}}.jpg" />
           </a>
-        {{/each}}
+        {{/repeat}}
       </div>
 
     </section>
